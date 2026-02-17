@@ -1,4 +1,4 @@
-# Medical Image Harmonization using CycleGAN
+# MRI Harmonization using CycleGAN
 
 A CycleGAN-based framework for harmonizing medical images across different vendors (e.g., SIEMENS → Philips). This project enables domain translation of MRI/CT scans without paired supervision, leveraging adversarial training and cycle-consistency losses.
 
@@ -447,3 +447,4 @@ Contributions are welcome! Please:
 ## Contact
 
 For questions or issues, please open a GitHub issue or contact the maintainers.
+
