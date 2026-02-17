@@ -8,14 +8,9 @@ A CycleGAN-based framework for harmonizing medical images across different vendo
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Dataset Preparation](#dataset-preparation)
 - [Usage](#usage)
   - [Training](#training)
   - [Inference](#inference)
-- [Loss Functions & Architecture](#loss-functions--architecture)
-- [Configuration](#configuration)
-- [Output & Results](#output--results)
-- [Citation](#citation)
 
 ---
 
@@ -82,7 +77,7 @@ Medical images acquired from different vendors exhibit domain-specific artifacts
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/Iceberg6618/CycleGAN-Harmonization.git
 cd github_upload
 
 # (Optional) Create and activate a virtual environment
@@ -129,22 +124,6 @@ Each pickle file should contain a dictionary:
     'Philips': <numpy array (H, W, 1)>   # Vendor B image
 }
 ```
-
-### Creating the Dataset
-
-Use `dataset/generate_paired_dataset.py` to convert raw images (2D slices or 3D volumes) into paired pickle files:
-
-```bash
-python dataset/generate_paired_dataset.py \
-    --vendor1_dir /path/to/SIEMENS/images \
-    --vendor2_dir /path/to/Philips/images \
-    --output_dir ./dataset/Harmonization_dataset \
-    --split_ratio 0.8
-```
-
-(See the script for detailed argument documentation.)
-
----
 
 ## Usage
 
@@ -271,3 +250,4 @@ main('./dataset/Harmonization_dataset/testset/SIEMENS',
 - **Slice Detection**: Automatically detects axial axis from NIfTI affine (looks for S/I orientation codes)
 
 ---
+
