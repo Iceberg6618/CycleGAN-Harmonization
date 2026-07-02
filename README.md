@@ -25,7 +25,7 @@ This repository provides an implementation based on the paper published in *Scie
 * **Clinical Validation**: Validates the harmonization quality and clinical utility using real-world clinical datasets of brain metastasis follow-ups.
 
 Medical images acquired from different vendors exhibit domain-specific artifacts and appearance variations due to hardware, calibration, and imaging protocols. This project addresses **vendor harmonization**—translating images from one vendor's domain to another while preserving anatomical structure and clinical utility.
-<img width="1017" height="856" alt="image" src="https://github.com/user-attachments/assets/eb71abd2-ca68-4a40-8e3a-dbd0fb8fe4eb" />
+<img width="1009" height="686" alt="image" src="https://github.com/user-attachments/assets/bece4da9-d0b6-4d31-b06c-96525e26ad6f" />
 <img width="1014" height="747" alt="image" src="https://github.com/user-attachments/assets/8f76f747-c55b-4a6c-a5a4-3023a22e0c3c" />
 
 ---
