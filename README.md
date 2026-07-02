@@ -16,9 +16,15 @@ A CycleGAN-based framework for harmonizing medical images across different vendo
 
 ## Overview
 
-Medical images acquired from different vendors exhibit domain-specific artifacts and appearance variations due to hardware, calibration, and imaging protocols. This project addresses **vendor harmonization**—translating images from one vendor's domain to another while preserving anatomical structure and clinical utility.
+This repository provides an implementation based on the paper published in *Scientific Reports* (2026):
 
-**Key Innovation**: Combines multiple loss terms (adversarial, cycle-consistency, identity, and original matching) in a symmetric CycleGAN architecture to ensure bidirectional and faithful harmonization.
+> **[Development of head-to-head and longitudinal CycleGAN algorithm for MRI harmonization: validation in follow-up MRI evaluation in patients with brain metastasis](https://www.nature.com/articles/s41598-026-43755-7)**
+
+* **MRI Harmonization**: Proposes a CycleGAN-based algorithm designed to reduce inter-scanner and inter-vendor variability across different MRI scans.
+* **Head-to-head & Longitudinal Approach**: Introduces a novel framework that preserves longitudinal changes, crucial for tracking follow-up MRI evaluations in patients with brain metastasis.
+* **Clinical Validation**: Validates the harmonization quality and clinical utility using real-world clinical datasets of brain metastasis follow-ups.
+
+Medical images acquired from different vendors exhibit domain-specific artifacts and appearance variations due to hardware, calibration, and imaging protocols. This project addresses **vendor harmonization**—translating images from one vendor's domain to another while preserving anatomical structure and clinical utility.
 
 ---
 
